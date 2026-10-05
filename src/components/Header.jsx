@@ -26,7 +26,7 @@ export function Navbar({ onOpenChat }) {
           <div className="search-icon">🔍</div>
           <div className="wishlist-icon hide-on-mobile">♡</div>
           <button 
-            className="btn btn-primary nav-btn hide-on-mobile" 
+            className="btn btn-primary nav-btn" 
             onClick={() => window.open('https://opal.google/app/14tn1-GrgR07in3yHRdF0WBDvCGoG8k93', '_blank')}
           >
             Get Expert Help

@@ -206,6 +206,7 @@
   .hero-search-box input { background: #fff; padding: 16px 24px; border-radius: 100px; }
   .hero-actions { flex-direction: column; width: 100%; }
   .hero-actions .btn { width: 100%; }
+  .nav-btn { padding: 8px 12px; font-size: 0.85rem; }
 }
 
 @media (max-width: 768px) {
