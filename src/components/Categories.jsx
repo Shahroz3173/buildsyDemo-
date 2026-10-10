@@ -6,7 +6,7 @@ export function ShopByCategory() {
     { name: "Tiles", desc: "For floors and walls", img: "/premium-tiles.png" },
     { name: "Marble & Stone", desc: "Natural elegance", img: "/premium-marble.png" },
     { name: "Sanitaryware", desc: "Modern bathroom essentials", img: "/sanitaryware.jpg" },
-    { name: "Bath Fittings", desc: "Faucets & showers", img: "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=500&q=80" },
+    { name: "Bath Fittings", desc: "Faucets & showers", img: "/bath-fittings.jpg" },
     { name: "Kitchen Solutions", desc: "Sinks & countertops", img: "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=500&q=80" },
     { name: "Flooring", desc: "Wooden & vinyl options", img: "/flooring.jpg" },
     { name: "Wall Cladding", desc: "Interior & exterior", img: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=500&q=80" },
@@ -45,7 +45,7 @@ export function ShopBySpace() {
     { name: "Bathroom", img: "/premium-bathroom.png" },
     { name: "Kitchen", img: "/kitchen.jpg" },
     { name: "Bedroom", img: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=500&q=80" },
-    { name: "Outdoor", img: "https://images.unsplash.com/photo-1600607688092-23c2a6f7b11c?w=500&q=80" }
+    { name: "Outdoor", img: "/outdoor-space.jpg" }
   ];
 
   return (
