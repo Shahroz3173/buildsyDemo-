@@ -44,6 +44,7 @@ export function Hero() {
   return (
     <header className="hero">
       <video className="hero-video-bg" autoPlay loop muted playsInline>
+        <source src="/showcase-mobile.mp4" type="video/mp4" media="(max-width: 768px)" />
         <source src="/hero-bg.mp4" type="video/mp4" />
       </video>
       <div className="hero-overlay"></div>
