@@ -5,12 +5,12 @@ export function ShopByCategory() {
   const categories = [
     { name: "Tiles", desc: "For floors and walls", img: "/premium-tiles.png" },
     { name: "Marble & Stone", desc: "Natural elegance", img: "/premium-marble.png" },
-    { name: "Sanitaryware", desc: "Modern bathroom essentials", img: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=500&q=80" },
+    { name: "Sanitaryware", desc: "Modern bathroom essentials", img: "/sanitaryware.jpg" },
     { name: "Bath Fittings", desc: "Faucets & showers", img: "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=500&q=80" },
     { name: "Kitchen Solutions", desc: "Sinks & countertops", img: "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=500&q=80" },
-    { name: "Flooring", desc: "Wooden & vinyl options", img: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=500&q=80" },
+    { name: "Flooring", desc: "Wooden & vinyl options", img: "/flooring.jpg" },
     { name: "Wall Cladding", desc: "Interior & exterior", img: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=500&q=80" },
-    { name: "Outdoor & Paving", desc: "Durable pavers", img: "https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9?w=500&q=80" }
+    { name: "Outdoor & Paving", desc: "Durable pavers", img: "/outdoor-paving.jpg" }
   ];
 
   return (
@@ -43,7 +43,7 @@ export function ShopBySpace() {
   const spaces = [
     { name: "Living Room", img: "/premium-living-room.png" },
     { name: "Bathroom", img: "/premium-bathroom.png" },
-    { name: "Kitchen", img: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=500&q=80" },
+    { name: "Kitchen", img: "/kitchen.jpg" },
     { name: "Bedroom", img: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=500&q=80" },
     { name: "Outdoor", img: "https://images.unsplash.com/photo-1600607688092-23c2a6f7b11c?w=500&q=80" }
   ];
